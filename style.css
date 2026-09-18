@@ -22,7 +22,7 @@
   --glaucous: hsl(230, 52%, 63%);
   --manatee: hsl(254, 7%, 65%);
   --rufous: hsl(2, 85%, 35%);
-  --black: hsl(0, 0%, 0%);
+  --black: hsl(0, 0%, 100%);
   --white: hsl(0, 0%, 100%);
 
   /**
@@ -189,7 +189,7 @@ body {
 }
 
 .btn-primary.blue {
-  bckground-color: var(--klein-blue);
+  background-color: var(--klein-blue);
 }
 
 .btn-primary.blue:is(:hover, :focus) {
@@ -625,7 +625,7 @@ section.freelancer h1 {
 }
 
 .contact-input::placeholder {
-  color: inherit;
+  color: black;
 }
 
 textarea.contact-input {
@@ -1051,7 +1051,7 @@ textarea.contact-input {
     animation: rotate-360 15s linear infinite reverse;
   }
 
-  @keyframes rotate360 {
+  @keyframes rotate-360 {
     0% {
       transform: rotate(0);
     }

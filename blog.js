@@ -44,5 +44,5 @@ form.addEventListener("submit", function (e) {
 });
 
 /* -------- 4. Dynamic footer year -------- */
-const yearEl = document.querySelector("[data-yaer]");
+const yearEl = document.querySelector("[data-year]");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
