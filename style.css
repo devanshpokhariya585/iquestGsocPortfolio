@@ -189,7 +189,7 @@ body {
 }
 
 .btn-primary.blue {
-  bckground-color: var(--klein-blue);
+  background-color: var(--klein-blue);
 }
 
 .btn-primary.blue:is(:hover, :focus) {
@@ -616,7 +616,7 @@ section.freelancer h1 {
 }
 
 .contact-input {
-  background-color: var(--white);
+  background-color: var(--fiery-rose);
   color: var(--manatee);
   border-radius: var(--radius-5);
   padding: 15px 25px;
