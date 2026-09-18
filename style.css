@@ -189,7 +189,7 @@ body {
 }
 
 .btn-primary.blue {
-  bckground-color: var(--klein-blue);
+  background-color: var(--klein-blue);
 }
 
 .btn-primary.blue:is(:hover, :focus) {
@@ -1367,5 +1367,5 @@ textarea.contact-input {
 \*-----------------------------------*/
 
 .contact .wrapper .contact-input {
-  color: var(--white);
+  color: var(--black);
 }
