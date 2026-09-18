@@ -617,7 +617,6 @@ section.freelancer h1 {
 
 .contact-input {
   background-color: var(--white);
-  color: var(--manatee);
   border-radius: var(--radius-5);
   padding: 15px 25px;
   font-size: var(--fs-5);
@@ -625,7 +624,7 @@ section.freelancer h1 {
 }
 
 .contact-input::placeholder {
-  color: inherit;
+  color: black;
 }
 
 textarea.contact-input {
@@ -1365,7 +1364,3 @@ textarea.contact-input {
 /*-----------------------------------*\
   #CONTACT FORM THEME OVERRIDE
 \*-----------------------------------*/
-
-.contact .wrapper .contact-input {
-  color: var(--white);
-}

@@ -30,7 +30,7 @@ readBtns.forEach(function (btn) {
 const form = document.querySelector("[data-newsletter]");
 const emailInput = form.querySelector("input");
 const msg = form.querySelector("[data-msg]");
-const emailPattern = /^[a-z]+@[a-z]+\.[a-z]+$/;
+const emailPattern = /^[a-z0-9_]+@[a-z]+\.[a-z]+$/;
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   if (emailPattern.test(emailInput.value)) {
@@ -44,5 +44,5 @@ form.addEventListener("submit", function (e) {
 });
 
 /* -------- 4. Dynamic footer year -------- */
-const yearEl = document.querySelector("[data-yaer]");
+const yearEl = document.querySelector("[data-year]");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
