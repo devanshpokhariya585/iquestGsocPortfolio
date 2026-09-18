@@ -228,7 +228,7 @@ section.services {
   background: #f2f2f2;
 }
 section.services .card-wrapper {
-  display: gird;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2rem;
   grid-row-gap: 6rem;
@@ -238,6 +238,7 @@ section.services .card-wrapper .card {
   padding: 3rem 2rem;
   position: relative;
   padding-top: 5rem;
+  height:auto;
   text-align: center;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -247,7 +248,7 @@ section.services .card-wrapper .card {
 }
 section.services .card-wrapper .card img {
   position: absolute;
-  top: -3.5rem;
+  top: -2.5rem;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
