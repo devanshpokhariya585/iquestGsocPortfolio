@@ -4,7 +4,7 @@
 const filterBtns = document.querySelectorAll("[data-filter]");
 const blogCards = document.querySelectorAll("[data-category]");
 
-for (let i = 0; i < filterBtns.length; i++) {
+for (let i = 0; i < filterBtns.length; i++){
   var filter = filterBtns[i].dataset.filter;
   filterBtns[i].addEventListener("click", function () {
     filterBtns.forEach((b) => b.classList.remove("active"));
@@ -44,5 +44,5 @@ form.addEventListener("submit", function (e) {
 });
 
 /* -------- 4. Dynamic footer year -------- */
-const yearEl = document.querySelector("[data-yaer]");
+const yearEl = document.querySelector("[data-year]");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
