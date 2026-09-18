@@ -1051,7 +1051,7 @@ textarea.contact-input {
     animation: rotate-360 15s linear infinite reverse;
   }
 
-  @keyframes rotate360 {
+  @keyframes rotate-360 {
     0% {
       transform: rotate(0);
     }
